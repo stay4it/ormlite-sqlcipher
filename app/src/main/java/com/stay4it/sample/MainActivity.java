@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void testDB() {
-        DBManager.init(this, "antush", "antush");
+        DBManager.init(this, "stay4it", "stay4it");
         User user = new User();
         user.id = "1000000";
         user.age = 18;
